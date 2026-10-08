@@ -101,7 +101,9 @@ function init(C){
     if(!free){var o2=document.createElement('option');o2.textContent='Нет свободных часов — выберите другой день';o2.disabled=true;time.appendChild(o2);}
   }
   var t=new Date(),iso=t.getFullYear()+'-'+String(t.getMonth()+1).padStart(2,'0')+'-'+String(t.getDate()).padStart(2,'0');
-  date.min=iso;date.value=iso;fill();date.addEventListener('change',fill);
+  date.min=iso;date.value=iso;fill();
+  if(time.options.length&&time.options[0].disabled){var tm=new Date(t.getTime()+86400000);date.value=tm.getFullYear()+'-'+String(tm.getMonth()+1).padStart(2,'0')+'-'+String(tm.getDate()).padStart(2,'0');fill();}
+  date.addEventListener('change',fill);
   document.getElementById('bookingForm').addEventListener('submit',function(e){
     e.preventDefault();var f=e.target,err=document.getElementById('err');
     if(!f.name.value.trim()||!f.date.value||!f.time.value){err.textContent='Укажите имя, дату и свободное время.';err.hidden=false;return;}
