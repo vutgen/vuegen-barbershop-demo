@@ -3,7 +3,7 @@
    Всё, что в [КВАДРАТНЫХ СКОБКАХ], замените данными клиента.
    ===================================================================== */
 window.CONFIG = {
-  name: "BLACKLINE",
+  name: "BlackLine",
   nameSuffix: "Барбершоп",                    // маленькая надпись рядом с логотипом
   city: "Уфа",
   cityIn: "в Уфе",                     // «в Уфе», «в Казани» — для заголовка и SEO
@@ -19,13 +19,13 @@ window.CONFIG = {
   ratingSource: "в 2ГИС",
 
   seo: {
-    title: "BLACKLINE — барбершоп в Уфе",
+    title: "BlackLine — барбершоп в Уфе",
     description: "Барбершоп «[Название]» в [Городе]: цены, запись онлайн. [Адрес]."
   },
 
   hero: {
-    title: "Барбершоп в Уфе: <em>запись без лишней переписки</em>",
-    lead: "Выберите услугу, дату и время — заявка придёт барберу сразу.",
+    title: "Барбершоп <em>BlackLine</em>",
+    lead: "Стрижки, борода и классическое бритьё в Уфе. Выберите услугу, дату и время — заявка придёт барберу сразу.",
     facts: [                                  // 2–3 факта под кнопками
       { big: "от 1 500 ₽", small: "мужская стрижка" },
       { big: "11–20", small: "ежедневно" }
@@ -77,9 +77,9 @@ window.CONFIG = {
     image: "https://images.unsplash.com/photo-1773904215697-e6c21fc27ac2?w=1000&q=80&auto=format&fit=crop"
   },
   team: [                                      // необязательно: мастера (имя, роль, фото)
-    { name: "Артём", role: "Старший барбер", image: "https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=800&q=80&auto=format&fit=crop" },
-    { name: "Денис", role: "Барбер", image: "https://images.unsplash.com/photo-1647140655214-e4a2d914971f?w=800&q=80&auto=format&fit=crop" },
-    { name: "Руслан", role: "Барбер", image: "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=800&q=80&auto=format&fit=crop" }
+    { name: "Артём", role: "Старший барбер", image: "https://images.unsplash.com/photo-1598524374912-6b0b0bab43dd?w=900&q=80&auto=format&fit=crop" },
+    { name: "Денис", role: "Барбер", image: "https://images.unsplash.com/photo-1553521041-d168abd31de3?w=900&q=80&auto=format&fit=crop" },
+    { name: "Руслан", role: "Барбер", image: "https://images.unsplash.com/photo-1585581905588-9e91f63bdd47?w=900&q=80&auto=format&fit=crop" }
   ],
 
   demoNote: "В макете занятые часы показаны для примера; в рабочей версии они берутся из реального графика барбера.",
