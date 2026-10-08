@@ -1,7 +1,7 @@
 /* Собирает страницу из config.js. Править не нужно. */
 function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
-function photo(cls,label,image){
-  if(image)return '<div class="photo photo--img '+cls+'" style="background-image:url(\''+esc(image)+'\')" role="img" aria-label="'+esc(label)+'"></div>';
+function photo(cls,label,image,caption){
+  if(image)return '<div class="photo photo--img '+cls+'" style="background-image:url(\''+esc(image)+'\')" role="img" aria-label="'+esc(label)+'">'+(caption?'<span class="photo__label">'+esc(label)+'</span>':'')+'</div>';
   return '<div class="photo '+cls+'" role="img" aria-label="'+esc(label)+'"><span class="photo__label">'+esc(label)+'</span></div>';
 }
 function digits(p){return String(p).replace(/\D/g,'');}
@@ -45,7 +45,7 @@ function build(C){
     h+='</div></div></section>';
   }
   h+='<section class="section" id="works"><div class="wrap"><h2>Работы мастера</h2><p class="sub">Хорошо видно, что получится, ещё до визита.</p><div class="gallery">';
-  C.gallery.forEach(function(g){h+=photo('',g.label,g.image);});
+  C.gallery.forEach(function(g){h+=photo('',g.label,g.image,true);});
   h+='</div></div></section>';
 
   h+='<section class="section" id="how"><div class="wrap"><h2>Как записаться</h2><ol class="steps">';

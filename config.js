@@ -45,12 +45,12 @@ window.CONFIG = {
   extraServices: [],
 
   gallery: [
-    { label: "помпадур", image: "https://images.unsplash.com/photo-1629189784191-9afdcbcb0398?w=900&q=80&auto=format&fit=crop" },
-    { label: "короткая", image: "https://images.unsplash.com/photo-1578390432942-d323db577792?w=900&q=80&auto=format&fit=crop" },
-    { label: "квиф", image: "https://images.unsplash.com/photo-1618049049816-43a00d5b0c3d?w=900&q=80&auto=format&fit=crop" },
-    { label: "фейд", image: "https://images.unsplash.com/photo-1633601851802-ad8eb2bcf1f4?w=900&q=80&auto=format&fit=crop" },
-    { label: "классика", image: "https://images.unsplash.com/photo-1695662917617-a1bfc0e2fbed?w=900&q=80&auto=format&fit=crop" },
-    { label: "текстура", image: "https://images.unsplash.com/photo-1619233543640-af09c173763b?w=900&q=80&auto=format&fit=crop" }
+    { label: "Кудри + фейд", image: "https://images.unsplash.com/photo-1617137228182-678ef5b18046?w=900&q=80&auto=format&fit=crop" },
+    { label: "Френч-кроп", image: "https://images.unsplash.com/photo-1673118306590-0a82988ba2c3?w=900&q=80&auto=format&fit=crop" },
+    { label: "Низкий фейд", image: "https://images.unsplash.com/photo-1613772884837-87ba2082e2e3?w=900&q=80&auto=format&fit=crop" },
+    { label: "Слик-бэк", image: "https://images.unsplash.com/photo-1676321976828-dde42b35ba52?w=900&q=80&auto=format&fit=crop" },
+    { label: "Тейпер и борода", image: "https://images.unsplash.com/photo-1684778243737-bd5b1d4c1b75?w=900&q=80&auto=format&fit=crop" },
+    { label: "Текстурная чёлка", image: "https://images.unsplash.com/photo-1644409840040-5130284fe1d6?w=900&q=80&auto=format&fit=crop" }
   ],
 
   steps: [
