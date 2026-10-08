@@ -92,8 +92,10 @@ function init(C){
   var time=document.getElementById('time'),date=document.getElementById('date');
   function fill(){
     var b=busyFor(date.value||'x'),free=0;time.innerHTML='';
+    var now=new Date(),isToday=date.value===now.getFullYear()+'-'+String(now.getMonth()+1).padStart(2,'0')+'-'+String(now.getDate()).padStart(2,'0');
     for(var h=C.hoursFrom;h<C.hoursTo;h++){
       if(b[h])continue;
+      if(isToday&&h<=now.getHours())continue;
       var o=document.createElement('option');o.textContent=(h<10?'0':'')+h+':00';time.appendChild(o);free++;
     }
     if(!free){var o2=document.createElement('option');o2.textContent='Нет свободных часов — выберите другой день';o2.disabled=true;time.appendChild(o2);}
