@@ -117,3 +117,6 @@ details{border-bottom:1px solid var(--line);padding:14px 0}summary{font-weight:7
 .nav{gap:18px;flex-wrap:nowrap}.nav a{white-space:nowrap}
 [data-theme="barber"] .nav a{font-size:12px;letter-spacing:.1em}
 @media(max-width:1180px){.nav a:nth-child(n+6){display:none}}
+
+.member__pic{aspect-ratio:4/5;min-height:0!important}
+.member__pic.photo--img{background-position:center 15%!important}

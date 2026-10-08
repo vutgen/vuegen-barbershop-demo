@@ -45,12 +45,12 @@ window.CONFIG = {
   extraServices: [],
 
   gallery: [
-    { label: "инструменты", image: "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=900&q=80&auto=format&fit=crop" },
-    { label: "кресло", image: "https://images.unsplash.com/photo-1621645582931-d1d3e6564943?w=900&q=80&auto=format&fit=crop" },
-    { label: "зал", image: "https://images.unsplash.com/photo-1536520002442-39764a41e987?w=900&q=80&auto=format&fit=crop" },
-    { label: "студия", image: "https://images.unsplash.com/photo-1781768526571-ef9c333279c7?w=900&q=80&auto=format&fit=crop" },
-    { label: "борода", image: "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=900&q=80&auto=format&fit=crop" },
-    { label: "интерьер", image: "https://images.unsplash.com/photo-1781455793310-8427c96454c7?w=900&q=80&auto=format&fit=crop" }
+    { label: "помпадур", image: "https://images.unsplash.com/photo-1629189784191-9afdcbcb0398?w=900&q=80&auto=format&fit=crop" },
+    { label: "короткая", image: "https://images.unsplash.com/photo-1578390432942-d323db577792?w=900&q=80&auto=format&fit=crop" },
+    { label: "квиф", image: "https://images.unsplash.com/photo-1618049049816-43a00d5b0c3d?w=900&q=80&auto=format&fit=crop" },
+    { label: "фейд", image: "https://images.unsplash.com/photo-1633601851802-ad8eb2bcf1f4?w=900&q=80&auto=format&fit=crop" },
+    { label: "классика", image: "https://images.unsplash.com/photo-1695662917617-a1bfc0e2fbed?w=900&q=80&auto=format&fit=crop" },
+    { label: "текстура", image: "https://images.unsplash.com/photo-1619233543640-af09c173763b?w=900&q=80&auto=format&fit=crop" }
   ],
 
   steps: [
@@ -77,9 +77,9 @@ window.CONFIG = {
     image: "https://images.unsplash.com/photo-1773904215697-e6c21fc27ac2?w=1000&q=80&auto=format&fit=crop"
   },
   team: [                                      // необязательно: мастера (имя, роль, фото)
-    { name: "Артём", role: "Старший барбер", image: "https://images.unsplash.com/photo-1598524374912-6b0b0bab43dd?w=900&q=80&auto=format&fit=crop" },
-    { name: "Денис", role: "Барбер", image: "https://images.unsplash.com/photo-1553521041-d168abd31de3?w=900&q=80&auto=format&fit=crop" },
-    { name: "Руслан", role: "Барбер", image: "https://images.unsplash.com/photo-1585581905588-9e91f63bdd47?w=900&q=80&auto=format&fit=crop" }
+    { name: "Артём", role: "Старший барбер", image: "https://images.unsplash.com/photo-1771594836579-af129894a49c?w=900&q=80&auto=format&fit=crop" },
+    { name: "Денис", role: "Барбер", image: "https://images.unsplash.com/photo-1516646720587-727f6728837d?w=900&q=80&auto=format&fit=crop" },
+    { name: "Руслан", role: "Барбер", image: "https://images.unsplash.com/photo-1780688373503-648df70cfcfe?w=900&q=80&auto=format&fit=crop" }
   ],
 
   demoNote: "В макете занятые часы показаны для примера; в рабочей версии они берутся из реального графика барбера.",
