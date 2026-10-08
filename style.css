@@ -122,3 +122,6 @@ details{border-bottom:1px solid var(--line);padding:14px 0}summary{font-weight:7
 .member__pic.photo--img{background-position:center 15%!important}
 
 .gallery .photo--img{background-position:center 12%!important}
+
+@media(max-width:560px){.logo span{display:none}.logo{font-size:22px}.topbar__in{gap:10px}.btn--small{padding:9px 14px;font-size:12px}h1{overflow-wrap:anywhere}.hero__btns .btn{width:100%;text-align:center}}
+html,body{overflow-x:hidden}
