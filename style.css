@@ -120,3 +120,5 @@ details{border-bottom:1px solid var(--line);padding:14px 0}summary{font-weight:7
 
 .member__pic{aspect-ratio:4/5;min-height:0!important}
 .member__pic.photo--img{background-position:center 15%!important}
+
+.gallery .photo--img{background-position:center 12%!important}
