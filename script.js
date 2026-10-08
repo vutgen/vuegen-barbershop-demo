@@ -75,7 +75,7 @@ function build(C){
      (C.vk?'<p><b>ВКонтакте:</b> <a href="https://vk.com/'+esc(C.vk)+'" target="_blank" rel="noopener">vk.com/'+esc(C.vk)+'</a></p>':'')+
      '<div class="hero__btns"><a class="btn" href="https://wa.me/'+digits(C.wa)+'" target="_blank" rel="noopener">Написать в WhatsApp</a>'+
      (C.gis?'<a class="btn btn--ghost" href="'+esc(C.gis)+'" target="_blank" rel="noopener">Открыть в 2ГИС</a>':'')+'</div></div>'+
-     photo('map','карта: '+C.address,'')+'</div></section></main>'+
+     photo('map','карта: '+C.address,C.contactsImage||'')+'</div></section></main>'+
      '<footer class="footer"><div class="wrap">© '+esc(C.name)+', '+esc(C.city)+' · '+esc(C.footer)+'</div></footer>';
   return h;
 }

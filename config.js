@@ -82,6 +82,7 @@ window.CONFIG = {
     { name: "Руслан", role: "Барбер", image: "https://images.unsplash.com/photo-1780688373503-648df70cfcfe?w=900&q=80&auto=format&fit=crop" }
   ],
 
+  contactsImage: "https://images.unsplash.com/photo-1781455793310-8427c96454c7?w=1000&q=80&auto=format&fit=crop",   // вместо карты; пусто — заглушка
   demoNote: "В макете занятые часы показаны для примера; в рабочей версии они берутся из реального графика барбера.",
   footer: "Макет сайта · студия vuegen",
 
